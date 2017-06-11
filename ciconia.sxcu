@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Ciconia",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://push.konosprod.fr/api/up/",
+  "FileFormName": "img",
+  "Arguments": {
+    "k": "YOU API KEY"
+  },
+  "ResponseType": "Text",
+  "RegexList": [
+    ".*$"
+  ],
+  "URL": "$1$"
+}
